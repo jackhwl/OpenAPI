@@ -9,4 +9,4 @@
   - Why Must You Document Your Web APIs?ß
   - Documenting Your APIs with the OpenAPI Specification
     - Introducing the OpenAPI Specification
-    
+    - Documenting Foundational API Details 
