@@ -7,3 +7,6 @@
   - Understanding the Fundamentals of an API
   - What Are the Benefits of Web APIs?
   - Why Must You Document Your Web APIs?ß
+  - Documenting Your APIs with the OpenAPI Specification
+    - Introducing the OpenAPI Specification
+    
