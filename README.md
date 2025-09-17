@@ -13,31 +13,32 @@
     - Documenting API Paths and Components
     - Documenting API Errors
         ```
- components: {
-    securitySchemes: {
-      bearerAuth: {
-        type: 'http',
-        scheme: 'bearer',
-        bearerFormat: 'JWT',
-        description: 'JWT Bearer token authentication'
-      }
-    },
-    schemas: {
-        EvaluationProcess: evaluationProcessSchema,
-        Group: groupSchema,
-        NotFoundResponses: NotFoundResponseSchema,
-        SimpleError: simpleErrorSchema
-    }
-  },        
+            components: {
+                securitySchemes: {
+                bearerAuth: {
+                    type: 'http',
+                    scheme: 'bearer',
+                    bearerFormat: 'JWT',
+                    description: 'JWT Bearer token authentication'
+                }
+                },
+                schemas: {
+                    EvaluationProcess: evaluationProcessSchema,
+                    Group: groupSchema,
+                    NotFoundResponses: NotFoundResponseSchema,
+                    SimpleError: simpleErrorSchema
+                }
+            },        
         ```
         ```
-      -  404: {
-          description: 'Invalid query parameters',
-          content: {
-            'application/json': {
-              schema: NotFoundResponseSchema,
-              $ref: '#/components/responses/NotFoundResponse
-            }
-          }
-        },
+            404: {
+                description: 'Invalid query parameters',
+                content: {
+                    'application/json': {
+                    schema: NotFoundResponseSchema,
+                    $ref: '#/components/responses/NotFoundResponse
+                    }
+                }
+            },
         ```
+    - Documenting API Versioning
