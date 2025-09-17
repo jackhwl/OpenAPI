@@ -10,3 +10,4 @@
   - Documenting Your APIs with the OpenAPI Specification
     - Introducing the OpenAPI Specification
     - Documenting Foundational API Details 
+    - Documenting API Paths and Components
