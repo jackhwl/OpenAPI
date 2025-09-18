@@ -42,3 +42,6 @@
             },
         ```
     - Documenting API Versioning
+  - Using Tooling with the OpenAPI Specification
+    - Understanding the OpenAPI Tooling Landscape
+    - Swagger Overview
