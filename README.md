@@ -45,3 +45,4 @@
   - Using Tooling with the OpenAPI Specification
     - Understanding the OpenAPI Tooling Landscape
     - Swagger Overview
+    - Postman Overview
