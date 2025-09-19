@@ -50,3 +50,20 @@
     - Backstage Overview
   - Creating a Developer Portal
     - Getting Started with an API Developer Portal
+    - Creating Content for a Developer Portal
+
+## Getting Started with Swagger 2 Tools
+  1. Course Overview
+  2. Introductionsws
+    - Version Check: Swagger 2.0
+    - Introduction:
+      - Swagger API 2011
+      - OpenAPI 2015
+      - Swagger = OpenAPI 2016
+      - OpenAPI 3.0 2017
+    - The Swagger Tools
+      - Swagger Editor
+      - Swagger UI
+      - Swagger Inspector: postman
+      - Swagger Codegen
+      - SwaggerHub
