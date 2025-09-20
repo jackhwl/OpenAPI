@@ -117,3 +117,20 @@
         title: A minimal OpenAPI document
         version: 0.0.1
       path: {}
+    - Deep dive on info, Contact, License objects
+        openapi: 3.0.3
+        info:
+        title: EasyShop Products APIs Definition
+        description: |
+                Using this OpenAPI specification, any consumer can understand the APIs that are exposed by EazyShop
+        termsOfService: https://easyshop.com/terms/
+        contact:
+            name: API Support
+            url: https://www.easyshop.com/support
+            email: support@easyshop.com
+        license:
+            name: EasyShop License
+            url: https://www.easyshop.com/licenses/LICENSE-2.0.html
+        version: 0.0.1
+        paths: {}
+    
