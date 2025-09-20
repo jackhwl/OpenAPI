@@ -104,3 +104,9 @@
             description: pass an optional customerid
             required: true
             content:
+    - OpenAPI 2.0: Response
+
+## OpenAPI Specification and Swagger Tools - Zero to Master
+  - Section 1: Introduction to OpenAPI Specification
+  - Section 2: Getting Started with OpenAPI specification in code first scenario
+   
