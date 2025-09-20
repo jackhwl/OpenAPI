@@ -59,11 +59,32 @@
     - Introduction:
       - Swagger API 2011
       - OpenAPI 2015
-      - Swagger = OpenAPI 2016
+      - Swagger 2.0 = OpenAPI 2.0 2016
       - OpenAPI 3.0 2017
     - The Swagger Tools
       - Swagger Editor
+        - https://github.com/swagger-api/swagger-editor
       - Swagger UI
       - Swagger Inspector: postman
       - Swagger Codegen
       - SwaggerHub
+    - Setup Free Swagger Account
+    - The Demo Code
+  3. Crete OpenAPI Documents with Swagger Editor
+    - Navigating the Swagger Editor
+    - OpenAPI 2.0: Vision and Info
+        openapi: '3.0'
+
+        info:
+        version: '1.0.0'
+        title: Customer API
+        description: This is the Customer API.
+        termsOfService: terms
+        contact:
+            name: Wenlin Huang
+            url: http://www.wenlin.com
+            email: jack@gmail.com
+        license:
+            name: MIT
+            url: http://opensource.org/licenses/MIT
+
