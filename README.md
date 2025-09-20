@@ -87,4 +87,20 @@
         license:
             name: MIT
             url: http://opensource.org/licenses/MIT
-
+    - OpenAPI 2.0: Paths and GET Operation
+        paths:
+            /customer:
+                get:
+                summary: read a customer's data
+                operationId: getCustomer
+                description: "This operation provides a view, The operation uses the customers id to identify the query string"
+                responses:
+                    200:
+                    description: OK
+    - OpenAPI 2.0: Produces, Consumes and Parameters 
+          parameters: 
+            - in: query
+            name: customerId
+            description: pass an optional customerid
+            required: true
+            content:
