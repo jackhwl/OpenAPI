@@ -109,4 +109,11 @@
 ## OpenAPI Specification and Swagger Tools - Zero to Master
   - Section 1: Introduction to OpenAPI Specification
   - Section 2: Getting Started with OpenAPI specification in code first scenario
-   
+  - Section 3: Getting Started with penAPI specification in design first scenario
+    - Writing an minimal OpenAPI Specification document
+      - https://editor.swagger.io/
+      openapi: 3.0.3
+      info:
+        title: A minimal OpenAPI document
+        version: 0.0.1
+      path: {}
