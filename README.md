@@ -133,4 +133,24 @@
             url: https://www.easyshop.com/licenses/LICENSE-2.0.html
         version: 0.0.1
         paths: {}
-    
+    - Understanding & writing server details inside OpenAPI specification
+        servers:
+        - url: https://development.easyshop-server.com/v1
+            description: Dvelopment server
+        - url: https://staging.easyshop-server.com/v1
+            description: Staging server
+        - url: https://api.easyshop-server.com/v1
+            description: Production server
+        - url: https://{username}.server.com:{port}/{version}
+            variables:
+            username:
+                default: demo
+                description: This value is assigned by the service provider
+            port:
+                enum:
+                - "8443"
+                - "443"
+                default: "8443"
+            version:
+                default: v1
+        paths: {}
