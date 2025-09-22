@@ -217,3 +217,70 @@
                     type: integer
                   name:
                     type: string
+        - Assignment to build product related APIs
+        - Assignment solution to build product related APIs
+  /products:
+    get:
+      summary: List all products
+      description: |
+            Returns the list of of products supported by EazyShop
+      parameters:
+      - name: categoryId
+        in: query
+        schema:
+          type: integer
+          minimum: 100
+          maximum: 1000
+        example: 101
+      responses:
+        '200':
+          description: A list of products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    productId:
+                      type: integer
+                    name:
+                      type: string
+                    price:
+                      type: number
+                    categoryName:
+                      type: string
+                    quantity:
+                      type integer
+  /products/{productId}:
+    get:
+      summary: Return product details
+      description: Returns the product details from EazyShop
+      parameters:
+      - name: productId
+        in: path
+        required: true
+        schema:
+          type: integer
+          minimum: 100
+          maximum: 1000
+        example: 101
+      responses:
+        '200':
+          description: Return product details
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  productId:
+                    type: integer
+                  name:
+                    type: string
+                  price:
+                    type: number
+                  categoryName:
+                    type: string
+                  quantity:
+                    type integer
+        - 
