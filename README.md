@@ -157,7 +157,7 @@
     - Deep dive on Paths inside Open API specifications
         - Introduction to Paths inside Open API Specification
         - Writing our first path inside Open API Specification
-        paths:
+          paths:
             /categories:
                 get:
                 summary: List all categories
@@ -176,3 +176,16 @@
                                 type: integer
                                 name:
                                 type: string
+        - Exploring our first path inside Swagger UI
+        - Describing Query parameters inside Open API specification
+            get:
+                summary: List all categories
+                description: Returns the list of of categories supported by EazyShop
+                parameters:
+                - name: categoryId
+                  in: query
+                  schema:
+                    type: integer
+                    minimum: 100
+                    maximum: 1000
+                  example: 101
