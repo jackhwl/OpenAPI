@@ -304,3 +304,53 @@
                             type integer
         ```
         - Describing HTTP POST API inside Open API specification
+        ```
+         /orders:
+           post:
+             summary: Create Order
+             description: |
+               Post order details to EazyShop for processing
+               and shipping
+             requestBody:
+               content:
+                 application/json:
+                   schema:
+                     type: object
+                     properties:
+                       products:
+                         type: array
+                         items:
+                           type: object
+                           properties:
+                             productId:
+                               type: integer
+                             name:
+                               type: string
+                             price:
+                               type: number
+                             categoryName:
+                               type: string
+                             quantity:
+                               type: integer
+                       address:
+                         type: object
+                         properties:
+                           addressLine:
+                             type: string
+                           city:
+                             type: string
+                           state:
+                             type: string
+                           zipcode:
+                             type: string                      
+             responses:
+               '201':
+                 description: Order created sucessfully
+                 content:
+                   application/json:
+                     schema:
+                       type: object
+                       properties:
+                         orderId:
+                           type: integer        
+        ```
