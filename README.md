@@ -73,6 +73,7 @@
   3. Crete OpenAPI Documents with Swagger Editor
     - Navigating the Swagger Editor
     - OpenAPI 2.0: Vision and Info
+        ```
         openapi: '3.0'
 
         info:
@@ -87,7 +88,9 @@
         license:
             name: MIT
             url: http://opensource.org/licenses/MIT
+        ```
     - OpenAPI 2.0: Paths and GET Operation
+        ```
         paths:
             /customer:
                 get:
@@ -97,13 +100,16 @@
                 responses:
                     200:
                     description: OK
+        ```
     - OpenAPI 2.0: Produces, Consumes and Parameters 
+        ```
           parameters: 
             - in: query
             name: customerId
             description: pass an optional customerid
             required: true
             content:
+        ```
     - OpenAPI 2.0: Response
 
 ## OpenAPI Specification and Swagger Tools - Zero to Master
@@ -112,12 +118,15 @@
   - Section 3: Getting Started with penAPI specification in design first scenario
     - Writing an minimal OpenAPI Specification document
       - https://editor.swagger.io/
+      ```
       openapi: 3.0.3
       info:
         title: A minimal OpenAPI document
         version: 0.0.1
       path: {}
+      ```
     - Deep dive on info, Contact, License objects
+        ```
         openapi: 3.0.3
         info:
         title: EasyShop Products APIs Definition
@@ -133,7 +142,9 @@
             url: https://www.easyshop.com/licenses/LICENSE-2.0.html
         version: 0.0.1
         paths: {}
+        ```
     - Understanding & writing server details inside OpenAPI specification
+        ```
         servers:
         - url: https://development.easyshop-server.com/v1
             description: Dvelopment server
@@ -154,9 +165,11 @@
             version:
                 default: v1
         paths: {}
+        ```
     - Deep dive on Paths inside Open API specifications
         - Introduction to Paths inside Open API Specification
         - Writing our first path inside Open API Specification
+        ```
           paths:
             /categories:
                 get:
@@ -176,8 +189,10 @@
                                 type: integer
                                 name:
                                 type: string
+        ```
         - Exploring our first path inside Swagger UI
         - Describing Query parameters inside Open API specification
+            ```
             get:
                 summary: List all categories
                 description: Returns the list of of categories supported by EazyShop
@@ -189,9 +204,11 @@
                     minimum: 100
                     maximum: 1000
                   example: 101
+            ```
         - Demo of Try it out inside Swagger UI
         - Assignment to build an GET API that supports path params
         - Assignment solution to build an GET API that supports path params
+        ```
   /categories/{categoryId}:
     get:
       summary: List all categories
@@ -217,8 +234,10 @@
                     type: integer
                   name:
                     type: string
+        ```
         - Assignment to build product related APIs
         - Assignment solution to build product related APIs
+        ```
   /products:
     get:
       summary: List all products
@@ -283,4 +302,5 @@
                     type: string
                   quantity:
                     type integer
-        - 
+        ```
+        - Describing HTTP POST API inside Open API specification
