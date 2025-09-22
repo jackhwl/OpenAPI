@@ -154,3 +154,25 @@
             version:
                 default: v1
         paths: {}
+    - Deep dive on Paths inside Open API specifications
+        - Introduction to Paths inside Open API Specification
+        - Writing our first path inside Open API Specification
+        paths:
+            /categories:
+                get:
+                summary: List all categories
+                description: Returns the list of of categories supported by EazyShop
+                responses:
+                    '200':
+                    description: A list of categories
+                    content:
+                        application/json:
+                        schema:
+                            type: array
+                            items:
+                            type: object
+                            properties:
+                                categoryId:
+                                type: integer
+                                name:
+                                type: string
