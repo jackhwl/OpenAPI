@@ -189,3 +189,31 @@
                     minimum: 100
                     maximum: 1000
                   example: 101
+        - Demo of Try it out inside Swagger UI
+        - Assignment to build an GET API that supports path params
+        - Assignment solution to build an GET API that supports path params
+  /categories/{categoryId}:
+    get:
+      summary: List all categories
+      description: Returns the list of of categories supported by EazyShop
+      parameters:
+      - name: categoryId
+        in: path
+        required: true
+        schema:
+          type: integer
+          minimum: 100
+          maximum: 1000
+        example: 101
+      responses:
+        '200':
+          description: A list of categories
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  categoryId:
+                    type: integer
+                  name:
+                    type: string
