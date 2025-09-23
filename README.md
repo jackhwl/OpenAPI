@@ -354,3 +354,48 @@
                          orderId:
                            type: integer        
         ```
+        - Describing HTTP PUT API inside OpenAPI specification
+        ```
+            put:
+              summary: Update Order
+              description: |
+                Update order details to EazyShop for processing
+                and shipping
+              requestBody:
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        orderId:
+                          type: integer
+                        products:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              productId:
+                                type: integer
+                              name:
+                                type: string
+                              price:
+                                type: number
+                              categoryName:
+                                type: string
+                              quantity:
+                                type: integer
+                        address:
+                          type: object
+                          properties:
+                            addressLine:
+                              type: string
+                            city:
+                              type: string
+                            state:
+                              type: string
+                            zipcode:
+                              type: string                      
+              responses:
+                '200':
+                  description: Order detail updated sucessfully        
+        ```
