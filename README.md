@@ -399,3 +399,18 @@
                 '200':
                   description: Order detail updated sucessfully        
         ```
+        - Describing HTTP DELETE API inside OpenAPI specification
+        ```
+            delete:
+              summary: Delete Order
+              description: Delete order details from EazyShop
+              parameters:
+                - name: orderId
+                  in: query
+                  required: true
+                  schema:
+                    type: integer
+              responses:
+                '204':
+                  description: Order detail cancelled sucessfully        
+        ```
