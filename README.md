@@ -414,3 +414,52 @@
                 '204':
                   description: Order detail cancelled sucessfully        
         ```
+        - Describing HTTP GET API inside OpenAPI specification
+        ```
+            get:
+              summary: Get Order Details
+              description: Get order details from EazyShop
+              parameters:
+                - name: orderId
+                  in: query
+                  required: true
+                  schema:
+                    type: integer
+              responses:
+                '200':
+                  description: Get order details from EazyShop
+                  content:
+                    application/json:
+                      schema:
+                        type: object
+                        properties:
+                          products:
+                            type: array
+                            items:
+                              type: object
+                              properties:
+                                productId:
+                                  type: integer
+                                name:
+                                  type: string
+                                price:
+                                  type: number
+                                categoryName:
+                                  type: string
+                                quantity:
+                                  type: integer
+                          address:
+                            type: object
+                            properties:
+                              addressLine:
+                                type: string
+                              city:
+                                type: string
+                              state:
+                                type: string
+                              zipcode:
+                                type: string                      
+                          properties:
+                            orderId:
+                              type: integer        
+        ```
