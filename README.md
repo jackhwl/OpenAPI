@@ -470,4 +470,4 @@
       - Introduction to CommonMark syntax
       - Writing better documentation using CommonMark syntax
       - Describing Quantity property with OpenMark syntax
-
+      - Providing examples data inside Open API specifications
