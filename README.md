@@ -468,3 +468,4 @@
           - OpenAPI Map - https://openapi-map.apihandyman.io
     - Writing better documentation inside OpenAPI specification
       - Introduction to CommonMark syntax
+      - Writing better documentation using CommonMark syntax
