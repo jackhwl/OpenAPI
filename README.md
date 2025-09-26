@@ -469,3 +469,5 @@
     - Writing better documentation inside OpenAPI specification
       - Introduction to CommonMark syntax
       - Writing better documentation using CommonMark syntax
+      - Describing Quantity property with OpenMark syntax
+
