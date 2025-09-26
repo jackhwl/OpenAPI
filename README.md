@@ -466,3 +466,5 @@
         - A Quick recap about paths & its elements inside OpenAPI specification
         - Helpful website to know the OpenAPI specification structure
           - OpenAPI Map - https://openapi-map.apihandyman.io
+    - Writing better documentation inside OpenAPI specification
+      - Introduction to CommonMark syntax
