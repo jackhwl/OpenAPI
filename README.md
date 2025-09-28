@@ -471,3 +471,4 @@
       - Writing better documentation using CommonMark syntax
       - Describing Quantity property with OpenMark syntax
       - Providing examples data inside Open API specifications
+      - Organizing or Grouping APIs using tags inside OpenAPI specification
