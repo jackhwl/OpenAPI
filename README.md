@@ -472,3 +472,5 @@
       - Describing Quantity property with OpenMark syntax
       - Providing examples data inside Open API specifications
       - Organizing or Grouping APIs using tags inside OpenAPI specification
+## Building reusable content using components inside OpenAPI specification
+  - Introduction to components inside OpenAPI specification
