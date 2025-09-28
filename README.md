@@ -475,3 +475,5 @@
 ## Building reusable content using components inside OpenAPI specification
   - Introduction to components inside OpenAPI specification
   - Building reusable parameters using components
+## Deep dive on Dta types inside OpenAPI specification
+  - Introduction to Data types inside OpenAPI specification
