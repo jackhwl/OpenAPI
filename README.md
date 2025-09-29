@@ -478,4 +478,5 @@
 ## Deep dive on Dta types inside OpenAPI specification
   - Introduction to Data types inside OpenAPI specification
   - Deep dive into integer & number data type
-  
+  - Deep dive into string data type
+    - format: date, date-time, password, byte, binary
