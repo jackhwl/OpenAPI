@@ -495,3 +495,8 @@
     - required:
       - id
       - username
+  - Deep dive into Arrays data type
+    - type: array
+    - items:
+      - type: string
+  - Deep dive into 
