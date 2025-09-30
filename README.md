@@ -481,3 +481,17 @@
   - Deep dive into string data type
     - format: date, date-time, password, byte, binary
   - Deep dive into boolean data type
+  - Deep dive into Object data type
+    - type: object
+    - properties:
+      - id:
+        - type: integer
+        - readOnly: true
+      - username:
+        - type: string
+      - password:
+        - type: string
+        - writeOnly: true
+    - required:
+      - id
+      - username
