@@ -480,3 +480,4 @@
   - Deep dive into integer & number data type
   - Deep dive into string data type
     - format: date, date-time, password, byte, binary
+  - Deep dive into boolean data type
