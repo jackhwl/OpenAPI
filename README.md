@@ -499,4 +499,4 @@
     - type: array
     - items:
       - type: string
-  - Deep dive into 
+  - Deep dive into enum keyword
