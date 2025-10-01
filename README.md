@@ -500,3 +500,9 @@
     - items:
       - type: string
   - Deep dive into enum keyword
+## Inheritance & polymorphism inside OpenAPI specification
+  - allOf
+  - oneOf
+  - anyOf
+  - not
+  
