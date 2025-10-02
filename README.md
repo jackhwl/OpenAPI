@@ -505,4 +505,6 @@
   - oneOf
   - anyOf
   - not
-  
+## Other advance topics inside OpenAPI specification
+  - Quick checkpoint
+  - Declaring operationId inside OpenAPI specificationcan 
