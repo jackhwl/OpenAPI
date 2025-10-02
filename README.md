@@ -518,3 +518,4 @@
   - Defining HTTP Basic & Bearer Authentication inside OAS - Demo
   - Defining API key security inside OAS
   - Defining OAuth2 & OpenIDConnect security inside OAS - Theory
+  - Defining OAuth2 security inside OAS - Demo
