@@ -511,3 +511,4 @@
   - Usage of deprecated inside OpenAPI specification
   - Defining links inside OpenAPI specification
   - Defining extension fields inside OpenAPI
+  - Usage of externalDocs inside OpenAPI
