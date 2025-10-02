@@ -512,3 +512,5 @@
   - Defining links inside OpenAPI specification
   - Defining extension fields inside OpenAPI
   - Usage of externalDocs inside OpenAPI
+## Describing APIs Security inside OpenAPI specification
+  - Introduction to security inside OpenAPI
