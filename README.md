@@ -510,3 +510,4 @@
   - Declaring operationId inside OpenAPI specificationcan
   - Usage of deprecated inside OpenAPI specification
   - Defining links inside OpenAPI specification
+  - Defining extension fields inside OpenAPI
