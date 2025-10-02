@@ -509,3 +509,4 @@
   - Quick checkpoint
   - Declaring operationId inside OpenAPI specificationcan
   - Usage of deprecated inside OpenAPI specification
+  - Defining links inside OpenAPI specification
