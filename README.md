@@ -507,4 +507,5 @@
   - not
 ## Other advance topics inside OpenAPI specification
   - Quick checkpoint
-  - Declaring operationId inside OpenAPI specificationcan 
+  - Declaring operationId inside OpenAPI specificationcan
+  - Usage of deprecated inside OpenAPI specification
