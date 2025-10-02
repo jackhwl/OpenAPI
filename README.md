@@ -520,3 +520,5 @@
   - Defining OAuth2 & OpenIDConnect security inside OAS - Theory
   - Defining OAuth2 security inside OAS - Demo
   - Defining security at individual operation level
+## Hosting, Mock APIs, Code generation using OAS
+  - Hosing OpenAPI specification using GitHub pages - Part 1
