@@ -515,3 +515,4 @@
 ## Describing APIs Security inside OpenAPI specification
   - Introduction to security inside OpenAPI
   - Defining HTTP Basic & Bearer Authentication inside OAS - Theory
+  - Defining HTTP Basic & Bearer Authentication inside OAS - Demo
