@@ -522,3 +522,4 @@
   - Defining security at individual operation level
 ## Hosting, Mock APIs, Code generation using OAS
   - Hosing OpenAPI specification using GitHub pages - Part 1
+  - Hosing OpenAPI specification using GitHub pages - Part 2
