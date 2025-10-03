@@ -523,3 +523,6 @@
 ## Hosting, Mock APIs, Code generation using OAS
   - Hosing OpenAPI specification using GitHub pages - Part 1
   - Hosing OpenAPI specification using GitHub pages - Part 2
+  - Mock APIs using OpenAPI specification
+    - npm i -global @stoplight/prism-cli
+    - Prefer code=401; Prefer example=single-category-data
