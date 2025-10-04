@@ -528,3 +528,4 @@
     - Prefer code=401; Prefer example=single-category-data
   - Generate Server stubs using OpenAPI specification
   - Generate client code using OpenAPI specification
+  - Demo of OpenAPI Spring (Java framework) library springdoc-openapi
