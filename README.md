@@ -527,4 +527,4 @@
     - npm i -global @stoplight/prism-cli
     - Prefer code=401; Prefer example=single-category-data
   - Generate Server stubs using OpenAPI specification
-  
+  - Generate client code using OpenAPI specification
